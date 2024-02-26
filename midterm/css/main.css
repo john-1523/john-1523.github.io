@@ -1,0 +1,44 @@
+html {
+    font-size: 12px;
+}
+
+body {
+    background-color: #aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    background-color: #d4e9e7;
+    width: 1000px;
+    margin: 0 10%;
+}
+
+header img {
+    width: 1000px;
+}
+
+h1, h2, h3, h4, h6 {
+    font-weight: normal;
+}
+
+header h1 {
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    position: relative;
+    bottom: 185px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+article img {
+    float: left;
+    width: 150px;
+}
+
+footer h6 {
+    font-size: 1em;
+    text-align: right;
+}
