@@ -9,33 +9,68 @@ body {
 
 .box {
     background-color: #d4e9e7;
-    width: 1000px;
-    margin: 0 10%;
-}
-
-header img {
-    width: 1000px;
-}
-
-h1, h2, h3, h4, h6 {
-    font-weight: normal;
+    margin: auto;
+    width: 800px;
 }
 
 header h1 {
     color: white;
-    font-size: 5em;
+    font-size: 4em;
+    font-weight: normal;
     text-align: center;
     position: relative;
-    bottom: 185px;
+    bottom: 150px;
+}
+
+header img {
+    width: 100%;
+}
+
+header nav {
+    text-align: center;
+    position: relative;
+    bottom: 120px;
+    right: 25px;
 }
 
 header nav ul li {
-    display: inline;
+    display: inline-block;
+    width: 250px;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    border-right: 1px solid black;
+}
+
+header nav ul li:last-child {
+    border-right: none;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+article {
+    position: relative;
+    bottom: 125px;
+    padding: 0 10px;
+}
+
+article h2 {
+    font-size: 2.5em;
+    font-weight: normal;
+    position: relative;
+    top: 10px;
 }
 
 article img {
     float: left;
-    width: 150px;
+    width: 175px;
+    padding-right: 15px;
+}
+
+article p {
+    line-height: 1.5em;
 }
 
 footer h6 {
