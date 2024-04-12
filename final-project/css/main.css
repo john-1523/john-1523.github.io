@@ -15,6 +15,25 @@ body {
     margin: 0 auto;
 }
 
+h1 {
+    font-size: 10rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.75rem;
+}
+
 /* HEADER */
 
 header {
@@ -90,14 +109,11 @@ nav ul li a {
 }
 
 .main-box h1 {
-    font-size: 10rem;
-    font-weight: bold;
     line-height: 15rem;
     padding: 3rem 0;
 }
 
 .main-box p {
-    font-size: 2rem;
     line-height: 3rem;
 }
 
@@ -136,16 +152,83 @@ nav ul li a {
 }
 
 .about-wrapper h2 {
-    font-size: 6rem;
-    font-weight: bold;
     padding: 2rem 0;
 }
 
 .about-wrapper p {
-    font-size: 1.85rem;
     line-height: 2.75rem;
     padding: 1rem 0;
 }
+
+/* SERVICES */
+
+.services-wrapper {
+
+    /* positioning */
+    position: relative;
+    bottom: 725px;
+}
+
+.services-wrapper h2 {
+    padding-bottom: 1rem;
+}
+
+.services-wrapper section {
+    background-color: #ffe6ac;
+    margin: 2rem 0;
+    padding-bottom: 1px;
+}
+
+.services-wrapper section img {
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.services-wrapper h3 {
+    padding: 2rem;
+}
+
+.services-wrapper p {
+    line-height: 2.5rem;
+    padding: 0 2rem;
+}
+
+.plans-btn {
+    background-color: #222;
+    width: 20rem;
+    margin: 2rem 2rem;
+    padding: 4rem;
+    padding-bottom: 5rem;
+}
+
+.plans-btn a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+.plans-btn .fa-caret-right {
+    font-size: 4rem;
+}
+
+.marketing {
+    width: 26rem;
+}
+
+.video {
+    width: 19rem;
+}
+
+.web {
+    width: 18rem;
+}
+
+.print {
+    width: 18rem;
+}
+
+/* VISION */
+
 
 
 /* media query for desktop */
