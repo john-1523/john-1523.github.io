@@ -1,0 +1,66 @@
+html {
+    /* sets default font size */
+    font-size: 18px;
+}
+
+body {
+    /* sets default font */
+    font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+    /* sets maximum width of container */
+    max-width: 1200px;
+
+    margin: 0 auto;
+}
+
+header {
+    background-color: #222;
+    padding: 20px;
+}
+
+.logo {
+    background-color: #c78c06;
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+}
+
+nav ul li a {
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: #c78c06;
+}
+
+nav ul li #curr {
+    background-color: #c78c06;
+    color: #222;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search button {
+    background-color: #222;
+    border: 1px solid #c78c06;
+}
+
+.search .fa-magnifying-glass {
+    color: #c78c06;
+}
+
+
+/* media query for desktop */
+@media screen and (min-width: 760px) {
+    
+}
