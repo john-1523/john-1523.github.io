@@ -15,6 +15,8 @@ body {
     margin: 0 auto;
 }
 
+/* HEADER */
+
 header {
     background-color: #222;
     padding: 2rem;
@@ -68,6 +70,81 @@ nav ul li a {
 .search .fa-magnifying-glass {
     color: #c78c06;
     font-size: 3rem;
+}
+
+/* MAIN HEADING / BANNER */
+
+.main-wrapper img {
+    width: 100%;
+    /* !!! IMAGE TOO SMALL !!! */
+}
+
+.main-box {
+    background-color: rgb(34,34,34,75%);
+    color: #fff;
+    padding: 2rem;
+    padding-top: 4rem;
+    /* positioning over image */
+    position: relative;
+    bottom: 850px;
+}
+
+.main-box h1 {
+    font-size: 10rem;
+    font-weight: bold;
+    line-height: 15rem;
+    padding: 3rem 0;
+}
+
+.main-box p {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.connect-btn {
+    background-color: #c78c06;
+    width: 26rem;
+    padding: 5rem;
+    padding-top: 4rem;
+    margin-top: 2rem;
+}
+
+.connect-btn a {
+    color: #222;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+.connect-btn .fa-caret-right {
+    font-size: 4rem;
+}
+
+/* ABOUT US */
+
+.about-wrapper {
+    background-color: #ffe6ac;
+    padding: 2rem;
+    padding-bottom: 2.5rem;
+    /* positioning */
+    position: relative;
+    bottom: 800px;
+}
+
+.about-wrapper img {
+    width: 100%;
+    padding-bottom: 2.5rem;
+}
+
+.about-wrapper h2 {
+    font-size: 6rem;
+    font-weight: bold;
+    padding: 2rem 0;
+}
+
+.about-wrapper p {
+    font-size: 1.85rem;
+    line-height: 2.75rem;
+    padding: 1rem 0;
 }
 
 
