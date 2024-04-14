@@ -18,59 +18,60 @@ body {
 
 /* sets default font styles */
 h1 {
-    font-size: 10rem;
-    font-weight: bold;
-}
-
-h2 {
-    font-size: 6.75rem;
-    font-weight: bold;
-}
-
-h3 {
     font-size: 4.5rem;
     font-weight: bold;
 }
 
-h4 {
+h2 {
+    font-size: 3.25rem;
+    font-weight: bold;
+}
+
+h3 {
     font-size: 2.25rem;
     font-weight: bold;
 }
 
+h4 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
 p {
-    font-size: 2rem;
-    line-height: 3rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 /* HEADER */
 
 header {
     background-color: #222;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .logo-box {
     background-color: #c78c06;
-    padding: 3rem 0;
+    padding: 1rem 0;
 }
 
 .logo-box img {
-    width: 165px;
+    width: 80px;
+}
+
+.nav-home {
+    background-color: #c78c06;
 }
 
 .nav-home a {
     color: #222;
-    /* positioning */
-    position: relative;
-    top: 3rem;
 }
 
 nav ul li {
-    padding: 3rem;
+    padding: 1.5rem;
 }
 
 nav ul li a {
-    font-size: 2.5rem;
+    font-size: 1.25rem;
     text-decoration: none;
     color: #c78c06;
     display: flex;
@@ -83,8 +84,8 @@ nav ul li a {
 }
 
 #search {
-    padding: 1.25rem 0.75rem;
-    font-size: 2.5rem;
+    padding: 0.5rem;
+    font-size: 1.25rem;
     border: 0.5px solid #222;
     border-radius: 3px;
     /* aligning search bar with yellow container */
@@ -93,13 +94,13 @@ nav ul li a {
 
 .search button {
     background-color: #222;
-    border: 2px solid #c78c06;
-    width: 5.5rem;
+    border: 1px solid #c78c06;
+    width: 2.5rem;
 }
 
 .search .fa-magnifying-glass {
     color: #c78c06;
-    font-size: 3.25rem;
+    font-size: 1.5rem;
 }
 
 /* MAIN BANNER */
@@ -108,9 +109,8 @@ nav ul li a {
     /* positioning background image */
     background-image: url(/final-project/images/main-banner.jpg);
     background-position: center;
-    background-repeat: no-repeat;
-    height: 1010px;
-    margin-top: -5px;
+    background-size: cover;
+    height: 40rem;
     /* positioning text over background image */
     display: flex;
     align-items: center;
@@ -119,30 +119,30 @@ nav ul li a {
 .main-box {
     background-color: rgb(34,34,34,75%);
     color: #fff;
-    padding: 2rem;
-    padding-top: 4rem;
+    padding: 1rem;
+    padding-top: 2rem;
 }
 
 .main-box h1 {
-    line-height: 15rem;
-    padding: 2.5rem 0;
+    line-height: 7rem;
+    padding: 1rem 0;
 }
 
 .connect-btn {
     background-color: #c78c06;
     width: fit-content;
-    padding: 3.75rem 5rem 5rem;
-    margin-top: 2rem;
+    padding: 2rem 2rem 2.5rem;
+    margin-top: 1rem;
 }
 
 .connect-btn a {
     color: #222;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 .connect-btn .fa-caret-right {
-    font-size: 4.5rem;
+    font-size: 2rem;
     padding-left: 1rem;
     /* positioning */
     position: relative;
@@ -153,67 +153,64 @@ nav ul li a {
 
 .about-wrapper {
     background-color: #ffe6ac;
-    padding: 2rem;
-    /* positioning */
-    margin-top: -5px;
+    padding: 1rem;
 }
 
 .about-wrapper img {
     width: 100%;
-    padding-bottom: 2rem;
 }
 
 .about-wrapper h2 {
-    padding: 3rem 0;
+    padding: 2rem 0 1.5rem;
 }
 
 .about-wrapper p {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 /* SERVICES */
 
 .services-wrapper {
-    margin: 0 2rem;
+    margin: 0 1rem;
 }
 
 .services-wrapper h2 {
-    margin-top: 7rem;
-    margin-bottom: 3rem;
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .services-wrapper section {
     background-color: #ffe6ac;
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 .services-wrapper section img {
     width: 100%;
-    padding-bottom: 3rem;
+    padding-bottom: 1.5rem;
 }
 
 .services-box {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .services-box p {
-    padding: 3rem 0 2rem;
+    padding: 1.5rem 0 1rem;
 }
 
 .plans-btn {
     background-color: #222;
     width: fit-content;
-    padding: 3.75rem 5rem 5rem;
+    padding: 2rem 2rem 2.5rem;
 }
 
 .plans-btn a {
     color: #fff;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 .plans-btn .fa-caret-right {
-    font-size: 4.5rem;
+    font-size: 2rem;
     padding-left: 1rem;
     /* positioning */
     position: relative;
@@ -223,7 +220,7 @@ nav ul li a {
 /* VISION */
 
 .vision-wrapper {
-    margin: 3rem 0;
+    margin: 1rem 0;
     /* positioning background image */
     background-image: url(/final-project/images/vision.jpg);
     background-position: center;
@@ -232,32 +229,33 @@ nav ul li a {
 
 .vision-box {
     color: #fff;
-    padding: 2rem;
+    padding: 1rem;
+    margin-top: 2rem;
 }
 
 .vision-box h3 {
-    padding: 3rem 0;
+    padding: 1.5rem 0;
 }
 
 .vision-box p {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .vision-btn {
     background-color: rgb(0,0,0,60%);
-    border: 2px solid #c78c06;
+    border: 1px solid #c78c06;
     width: fit-content;
-    padding: 3.75rem 5rem 5rem;
+    padding: 2rem 2rem 2.5rem;
 }
 
 .vision-btn a {
     color: #fff;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 .vision-btn .fa-caret-right {
-    font-size: 4.5rem;
+    font-size: 2rem;
     padding-left: 1rem;
     /* positioning */
     position: relative;
@@ -267,16 +265,16 @@ nav ul li a {
 /* TEAM */
 
 .team-wrapper {
-    padding: 0 2rem;
+    padding: 0 1rem;
 }
 
 .team-wrapper h2 {
-    padding: 4rem 0 3rem;
+    padding: 2.5rem 0 1.5rem;
 }
 
 .team-wrapper .team-member {
     background-color: #ffe6ac;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .team-member img {
@@ -284,65 +282,65 @@ nav ul li a {
 }
 
 .team-box {
-    padding: 3rem 2rem;
+    padding: 1.5rem 1rem;
 }
 
 .team-box h4 {
-    padding-top: 1.5rem;
+    padding-top: 0.75rem;
 }
 
 .team-box hr {
-    border: 1.5px solid #c78c06;
+    border: 1px solid #c78c06;
 }
 
 .team-box p {
-    padding: 1rem 0;
+    padding: 0.5rem 0 0.25rem;
 }
 
 /* CONTACT */
 
 .contact-wrapper {
-    margin: 2rem;
-    margin-top: 10rem;
+    margin: 1rem;
+    margin-top: 4rem;
 }
 
 .contact-wrapper h2 {
-    padding: 1rem 0 2rem;
+    padding: 1rem 0;
 }
 
 .contact-wrapper h3 {
-    padding: 3rem 0;
+    padding: 1.5rem 0;
 }
 
 .form label {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .form input,
 .form textarea {
     display: block;
     width: 100%;
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
     border: 1px solid #222;
     border-radius: 3px;
 }
 
 .form input {
-    height: 4rem;
+    height: 2rem;
 }
 
 .form textarea {
-    height: 21rem;
+    height: 10rem;
 }
 
 .form button {
     background-color: #222;
     color: #c78c06;
     border: none;
-    font-size: 3rem;
-    margin-top: 1.5rem;
-    padding: 0.5rem 0.75rem;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    padding: 0.25rem 0.4rem;
 }
 
 .hours h3 {
@@ -357,8 +355,8 @@ nav ul li a {
 .hours th,
 .hours td {
     border: 1px solid #222;
-    font-size: 2rem;
-    padding: 2.5rem;
+    font-size: 1rem;
+    padding: 1rem;
 }
 
 .hours th {
@@ -371,24 +369,77 @@ nav ul li a {
 
 .location iframe {
     width: 100%;
-    height: 750px;
-    margin: -1rem 0 0.5rem;
+    height: 350px;
+    margin: -0.5rem 0 0.5rem;
 }
 
 /* FOOTER */
 
 footer {
     background-color: #222;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 footer p {
     color: #c78c06;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
 /* DESKTOP VERSION */
 
 @media screen and (min-width: 760px) {
     
+    /* HEADER */
+
+    .logo-box {
+        background-color: #222;
+    }
+
+    .logo-box img {
+        display: inline-block;
+        width: 75px;
+    }
+
+    .nav-home,
+    nav ul li {
+        box-sizing: border-box;
+        display: inline-block;
+        width: 10%;
+    }
+    
+    /* SERVICES */
+
+    .services-wrapper h2 {
+        display: block;
+    }
+
+    /* assigning grid areas */
+    .services-grid section:nth-child(1) {
+        grid-area: digital;
+    }
+    .services-grid section:nth-child(2) {
+        grid-area: marketing;
+    }
+    .services-grid section:nth-child(3) {
+        grid-area: video;
+    }
+    .services-grid section:nth-child(4) {
+        grid-area: web;
+    }
+    .services-grid section:nth-child(5) {
+        grid-area: print;
+    }
+
+    .services-grid {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 1rem;
+        grid-template-areas: 
+        "digital digital digital marketing marketing marketing"
+        "digital digital digital marketing marketing marketing"
+        "digital digital digital marketing marketing marketing"
+        "video video web web print print"
+        "video video web web print print"
+        "video video web web print print";
+    }
 }
