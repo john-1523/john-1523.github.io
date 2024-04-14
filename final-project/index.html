@@ -16,31 +16,34 @@
 </head>
 <div class="wrapper">
     <body>
+        <!-- HEADER -->
         <header>
-            <div class="logo-box">
-                <!-- logo -->
-                <img src="images/logo.png" alt="image of three stars" id="home">
+            <div class="header-wrapper">
+                <div class="logo-box">
+                    <!-- logo -->
+                    <img src="images/logo.png" alt="image of three stars" id="home">
+                </div>
+                <!-- navigation -->
+                <nav>
+                    <ul>
+                        <div class="nav-home">
+                            <li><a href="#home">Home</a></li>
+                        </div>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <!-- search bar -->
+                <form action="index.html" method="get" class="search">
+                    <input type="text" id="search" placeholder="Search">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
             </div>
-            <!-- navigation -->
-            <nav>
-                <ul>
-                    <div class="nav-home">
-                        <li><a href="#home">Home</a></li>
-                    </div>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <!-- search bar -->
-            <form action="index.html" method="get" class="search">
-                <input type="text" id="search" placeholder="Search">
-                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>
         </header>
         <main>
-            <!-- main heading and banner -->
+            <!-- MAIN BANNER -->
             <div class="main-wrapper">
                 <div class="main-box">
                     <h1>Welcome to Three Star Media</h1>
@@ -50,16 +53,16 @@
                     </div>
                 </div>
             </div>
-
-            <!-- about us -->
+            <!-- ABOUT -->
             <div class="about-wrapper">
                 <img src="images/about-us.jpg" alt="image of a ping pong table inside office">
-                <h2 id="about">About Us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, molestias numquam iusto voluptatum dicta nesciunt laboriosam ducimus dignissimos inventore alias laudantium quisquam odio, quis fugiat sint eligendi autem ad facere?</p>
-                <p>Dolorum, expedita unde ad odit necessitatibus iusto maiores dolores accusantium voluptas molestias nesciunt deserunt, totam earum nihil velit amet voluptatum eius accusamus sequi labore tempore nulla esse quam! Reiciendis, eius.</p>
+                <div class="about-box">
+                    <h2 id="about">About Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, molestias numquam iusto voluptatum dicta nesciunt laboriosam ducimus dignissimos inventore alias laudantium quisquam odio, quis fugiat sint eligendi autem ad facere?</p>
+                    <p>Dolorum, expedita unde ad odit necessitatibus iusto maiores dolores accusantium voluptas molestias nesciunt deserunt, totam earum nihil velit amet voluptatum eius accusamus sequi labore tempore nulla esse quam! Reiciendis, eius.</p>
+                </div>
             </div>
-
-            <!-- services -->
+            <!-- SERVICES -->
             <div class="services-wrapper">
                 <h2 id="services">Our Services</h2>
                 <div class="services-grid">
@@ -120,8 +123,7 @@
                     </section>
                 </div>
             </div>
-
-            <!-- vision -->
+            <!-- VISION -->
             <div class="vision-wrapper">
                 <div class="vision-box">
                     <h3>Our Vision</h3>
@@ -131,8 +133,7 @@
                     </div>
                 </div>
             </div>
-
-            <!-- team -->
+            <!-- TEAM -->
             <div class="team-wrapper">
                 <h2 id="team">Our Team</h2>
                 <!-- john doe -->
@@ -156,8 +157,7 @@
                     </div>
                 </section>
             </div>
-
-            <!-- contact -->
+            <!-- CONTACT -->
             <div class="contact-wrapper">
                 <h2 id="contact">Contact Us</h2>
                 <!-- contact form -->
@@ -206,6 +206,7 @@
                 </section>
             </div>
         </main>
+        <!-- FOOTER -->
         <footer>
             <!-- copyright info -->
             <p>© Copyright Three Star Media, 2020</p>
