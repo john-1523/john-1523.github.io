@@ -1,5 +1,7 @@
+/* MOBILE-FIRST APPROACH */
+
 html {
-    /* sets default font size for entire page */
+    /* sets default font size */
     font-size: 12px;
 }
 
@@ -82,7 +84,8 @@ nav ul li a {
 #search {
     padding: 0.75rem 0.5rem;
     font-size: 2.5rem;
-    border-radius: 2px;
+    border: 0.5px solid #222;
+    border-radius: 2.5px;
     /* aligning search bar with yellow container */
     width: calc(100% - 1rem);
 }
@@ -218,10 +221,11 @@ nav ul li a {
 /* VISION */
 
 .vision-wrapper {
+    margin: 3rem 0;
+    /* positioning background image */
     background-image: url(/final-project/images/vision.jpg);
     background-position: center;
     background-size: cover;
-    margin: 3rem 0;
 }
 
 .vision-box {
@@ -385,7 +389,8 @@ footer p {
     padding-top: 1rem;
 }
 
-/* media query for desktop */
+/* DESKTOP VERSION */
+
 @media screen and (min-width: 760px) {
     
 }
