@@ -39,33 +39,34 @@ h4 {
 
 p {
     font-size: 2rem;
-    line-height: 2rem;
+    line-height: 3rem;
 }
 
 /* HEADER */
 
 header {
     background-color: #222;
-    padding: 1.5rem;
+    padding: 2rem;
 }
 
 .logo-box {
     background-color: #c78c06;
-    padding: 2rem 0;
+    padding: 3rem 0;
 }
 
 .logo-box img {
-    width: 175px;
+    width: 165px;
 }
 
 .nav-home a {
     color: #222;
+    /* positioning */
     position: relative;
-    top: 2rem;
+    top: 3rem;
 }
 
 nav ul li {
-    padding: 2rem;
+    padding: 3rem;
 }
 
 nav ul li a {
@@ -82,10 +83,10 @@ nav ul li a {
 }
 
 #search {
-    padding: 0.75rem 0.5rem;
+    padding: 1.25rem 0.75rem;
     font-size: 2.5rem;
     border: 0.5px solid #222;
-    border-radius: 2.5px;
+    border-radius: 3px;
     /* aligning search bar with yellow container */
     width: calc(100% - 1rem);
 }
@@ -93,7 +94,7 @@ nav ul li a {
 .search button {
     background-color: #222;
     border: 2px solid #c78c06;
-    width: 4rem;
+    width: 5.5rem;
 }
 
 .search .fa-magnifying-glass {
@@ -104,36 +105,34 @@ nav ul li a {
 /* MAIN BANNER */
 
 .main-wrapper {
-    position: relative;
-}
-
-.main-wrapper img {
-    width: 100%;
-    height: 1025px;
-    object-fit: cover;
+    /* positioning background image */
+    background-image: url(/final-project/images/main-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1010px;
+    margin-top: -5px;
+    /* positioning text over background image */
+    display: flex;
+    align-items: center;
 }
 
 .main-box {
     background-color: rgb(34,34,34,75%);
     color: #fff;
-    padding: 1.5rem;
+    padding: 2rem;
     padding-top: 4rem;
-    /* positioning over image */
-    position: absolute;
-    top: 115px;
 }
 
 .main-box h1 {
-    line-height: 10rem;
-    padding: 1rem 0;
+    line-height: 15rem;
+    padding: 2.5rem 0;
 }
 
 .connect-btn {
     background-color: #c78c06;
     width: fit-content;
-    padding: 3rem;
-    padding-bottom: 3.5rem;
-    margin-top: 1rem;
+    padding: 3.75rem 5rem 5rem;
+    margin-top: 2rem;
 }
 
 .connect-btn a {
@@ -143,68 +142,68 @@ nav ul li a {
 }
 
 .connect-btn .fa-caret-right {
-    font-size: 4rem;
+    font-size: 4.5rem;
     padding-left: 1rem;
+    /* positioning */
+    position: relative;
+    top: 0.25rem;
 }
 
 /* ABOUT */
 
 .about-wrapper {
     background-color: #ffe6ac;
-    padding: 1.5rem;
-    padding-bottom: 1rem;
+    padding: 2rem;
+    /* positioning */
     margin-top: -5px;
 }
 
 .about-wrapper img {
     width: 100%;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
 .about-wrapper h2 {
-    padding-bottom: 2.5rem;
+    padding: 3rem 0;
 }
 
 .about-wrapper p {
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 /* SERVICES */
 
 .services-wrapper {
-    margin: 0 1.5rem;
+    margin: 0 2rem;
 }
 
 .services-wrapper h2 {
-    margin-top: 5rem;
-    margin-bottom: 2rem;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
 }
 
 .services-wrapper section {
     background-color: #ffe6ac;
-    margin: 1.5rem 0;
-    padding-bottom: 1px;
+    margin: 2rem 0;
 }
 
 .services-wrapper section img {
     width: 100%;
-    padding-bottom: 1.5rem;
+    padding-bottom: 3rem;
 }
 
-.services-wrapper h3 {
-    padding: 2rem 1.5rem;
+.services-box {
+    padding: 2rem;
 }
 
-.services-wrapper p {
-    padding: 0 1.5rem;
+.services-box p {
+    padding: 3rem 0 2rem;
 }
 
 .plans-btn {
     background-color: #222;
     width: fit-content;
-    margin: 1.5rem 1.5rem;
-    padding: 2.5rem 3rem;
-    padding-bottom: 3.25rem;
+    padding: 3.75rem 5rem 5rem;
 }
 
 .plans-btn a {
@@ -216,6 +215,9 @@ nav ul li a {
 .plans-btn .fa-caret-right {
     font-size: 4.5rem;
     padding-left: 1rem;
+    /* positioning */
+    position: relative;
+    top: 0.25rem;
 }
 
 /* VISION */
@@ -230,23 +232,22 @@ nav ul li a {
 
 .vision-box {
     color: #fff;
-    padding: 1.5rem;
+    padding: 2rem;
 }
 
 .vision-box h3 {
-    padding: 2rem 0;
+    padding: 3rem 0;
 }
 
 .vision-box p {
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 .vision-btn {
     background-color: rgb(0,0,0,60%);
     border: 2px solid #c78c06;
     width: fit-content;
-    padding: 2.5rem 3rem;
-    padding-bottom: 3.25rem;
+    padding: 3.75rem 5rem 5rem;
 }
 
 .vision-btn a {
@@ -258,21 +259,24 @@ nav ul li a {
 .vision-btn .fa-caret-right {
     font-size: 4.5rem;
     padding-left: 1rem;
+    /* positioning */
+    position: relative;
+    top: 0.25rem;
 }
 
 /* TEAM */
 
 .team-wrapper {
-    padding: 0 1.5rem;
+    padding: 0 2rem;
 }
 
 .team-wrapper h2 {
-    padding: 2rem 0;
+    padding: 4rem 0 3rem;
 }
 
 .team-wrapper .team-member {
     background-color: #ffe6ac;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .team-member img {
@@ -280,12 +284,11 @@ nav ul li a {
 }
 
 .team-box {
-    padding: 2rem 1.5rem;
-    padding-bottom: 1.5rem;
+    padding: 3rem 2rem;
 }
 
 .team-box h4 {
-    padding-top: 1rem;
+    padding-top: 1.5rem;
 }
 
 .team-box hr {
@@ -299,16 +302,16 @@ nav ul li a {
 /* CONTACT */
 
 .contact-wrapper {
-    margin: 1.5rem;
-    margin-top: 7rem;
+    margin: 2rem;
+    margin-top: 10rem;
 }
 
 .contact-wrapper h2 {
-    padding-bottom: 3rem;
+    padding: 1rem 0 2rem;
 }
 
 .contact-wrapper h3 {
-    padding-bottom: 2rem;
+    padding: 3rem 0;
 }
 
 .form label {
@@ -319,18 +322,18 @@ nav ul li a {
 .form textarea {
     display: block;
     width: 100%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
     border: 1px solid #222;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .form input {
-    height: 2.5rem;
+    height: 4rem;
 }
 
 .form textarea {
-    height: 14rem;
+    height: 21rem;
 }
 
 .form button {
@@ -338,17 +341,12 @@ nav ul li a {
     color: #c78c06;
     border: none;
     font-size: 3rem;
-    margin: 1rem 0;
+    margin-top: 1.5rem;
     padding: 0.5rem 0.75rem;
 }
 
-.hours {
-    margin: 1rem 0;
-}
-
 .hours h3 {
-    margin-top: 1.5rem;
-    margin-bottom: -0.5rem;
+    margin: 0.5rem 0 -0.5rem;
 }
 
 .hours table {
@@ -360,7 +358,7 @@ nav ul li a {
 .hours td {
     border: 1px solid #222;
     font-size: 2rem;
-    padding: 1.5rem;
+    padding: 2.5rem;
 }
 
 .hours th {
@@ -368,25 +366,25 @@ nav ul li a {
 }
 
 .location {
-    margin: 2rem 0;
+    margin: 0.5rem 0;
 }
 
 .location iframe {
     width: 100%;
     height: 750px;
-    margin-top: -0.5rem;
+    margin: -1rem 0 0.5rem;
 }
 
 /* FOOTER */
 
 footer {
     background-color: #222;
-    padding: 1.5rem;
+    padding: 2rem;
 }
 
 footer p {
     color: #c78c06;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 /* DESKTOP VERSION */
