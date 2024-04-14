@@ -14,24 +14,19 @@ body {
     max-width: 1200px;
 }
 
-/* removes whitespace from bottom of page */
-main {
-    height: 12270px;
-}
-
 /* sets default font styles */
 h1 {
-    font-size: 9rem;
+    font-size: 10rem;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 6rem;
+    font-size: 6.75rem;
     font-weight: bold;
 }
 
 h3 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: bold;
 }
 
@@ -41,15 +36,15 @@ h4 {
 }
 
 p {
-    font-size: 1.75rem;
-    line-height: 2.75rem;
+    font-size: 2rem;
+    line-height: 2rem;
 }
 
 /* HEADER */
 
 header {
     background-color: #222;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .logo-box {
@@ -58,7 +53,7 @@ header {
 }
 
 .logo-box img {
-    width: 150px;
+    width: 175px;
 }
 
 .nav-home a {
@@ -68,11 +63,11 @@ header {
 }
 
 nav ul li {
-    padding: 3rem;
+    padding: 2rem;
 }
 
 nav ul li a {
-    font-size: 2.25rem;
+    font-size: 2.5rem;
     text-decoration: none;
     color: #c78c06;
     display: flex;
@@ -85,8 +80,9 @@ nav ul li a {
 }
 
 #search {
-    padding: 1rem;
+    padding: 0.75rem 0.5rem;
     font-size: 2.5rem;
+    border-radius: 2px;
     /* aligning search bar with yellow container */
     width: calc(100% - 1rem);
 }
@@ -94,47 +90,47 @@ nav ul li a {
 .search button {
     background-color: #222;
     border: 2px solid #c78c06;
-    width: 6.5%;
+    width: 4rem;
 }
 
 .search .fa-magnifying-glass {
     color: #c78c06;
-    font-size: 3rem;
+    font-size: 3.25rem;
 }
 
 /* MAIN BANNER */
 
+.main-wrapper {
+    position: relative;
+}
+
 .main-wrapper img {
     width: 100%;
-    height: 900px;
+    height: 1025px;
     object-fit: cover;
 }
 
 .main-box {
     background-color: rgb(34,34,34,75%);
     color: #fff;
-    padding: 2rem;
+    padding: 1.5rem;
     padding-top: 4rem;
     /* positioning over image */
-    position: relative;
-    bottom: 800px;
+    position: absolute;
+    top: 115px;
 }
 
 .main-box h1 {
-    line-height: 12rem;
-    padding: 2rem 0;
-}
-
-.main-box p {
-    line-height: 3rem;
+    line-height: 10rem;
+    padding: 1rem 0;
 }
 
 .connect-btn {
     background-color: #c78c06;
-    width: 26rem;
-    padding: 5rem;
-    padding-top: 4rem;
-    margin-top: 2rem;
+    width: fit-content;
+    padding: 3rem;
+    padding-bottom: 3.5rem;
+    margin-top: 1rem;
 }
 
 .connect-btn a {
@@ -145,43 +141,39 @@ nav ul li a {
 
 .connect-btn .fa-caret-right {
     font-size: 4rem;
+    padding-left: 1rem;
 }
 
 /* ABOUT */
 
 .about-wrapper {
     background-color: #ffe6ac;
-    padding: 2rem;
-    padding-bottom: 2.5rem;
-    /* positioning */
-    position: relative;
-    bottom: 700px;
+    padding: 1.5rem;
+    padding-bottom: 1rem;
+    margin-top: -5px;
 }
 
 .about-wrapper img {
     width: 100%;
-    padding-bottom: 2.5rem;
+    padding-bottom: 3rem;
 }
 
 .about-wrapper h2 {
-    padding: 2rem 0;
+    padding-bottom: 2.5rem;
 }
 
 .about-wrapper p {
-    padding: 1rem 0;
+    padding-bottom: 1.5rem;
 }
 
 /* SERVICES */
 
 .services-wrapper {
-    margin: 0 2rem;
-    /* positioning */
-    position: relative;
-    bottom: 625px;
+    margin: 0 1.5rem;
 }
 
 .services-wrapper h2 {
-    padding-bottom: 1rem;
+    margin-top: 4rem;
 }
 
 .services-wrapper section {
@@ -192,33 +184,33 @@ nav ul li a {
 
 .services-wrapper section img {
     width: 100%;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 .services-wrapper h3 {
-    padding: 2rem;
+    padding: 2rem 1.5rem;
 }
 
 .services-wrapper p {
-    padding: 0 2rem;
+    padding: 0 1.5rem;
 }
 
 .plans-btn {
     background-color: #222;
     width: fit-content;
-    margin: 2rem 2rem;
-    padding: 4rem;
-    padding-bottom: 4.5rem;
+    margin: 1.5rem 1.5rem;
+    padding: 2.5rem 3rem;
+    padding-bottom: 3rem;
 }
 
 .plans-btn a {
     color: #fff;
     text-decoration: none;
-    font-size: 2.75rem;
+    font-size: 3rem;
 }
 
 .plans-btn .fa-caret-right {
-    font-size: 4rem;
+    font-size: 4.5rem;
     padding-left: 1rem;
 }
 
@@ -227,10 +219,9 @@ nav ul li a {
 .vision-wrapper {
     background-image: url(/final-project/images/vision.jpg);
     background-position: center;
-    height: 425px;
-    /* positioning */
-    position: relative;
-    bottom: 600px;
+    width: 100%;
+    height: 50%;
+    margin: 2rem 0;
 }
 
 .vision-box {
@@ -257,11 +248,11 @@ nav ul li a {
 .vision-btn a {
     color: #fff;
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 .vision-btn .fa-caret-right {
-    font-size: 3rem;
+    font-size: 4rem;
     padding-left: 1rem;
 }
 
@@ -270,8 +261,8 @@ nav ul li a {
 .team-wrapper {
     padding: 0 2rem;
     /* positioning */
-    position: relative;
-    bottom: 525px;
+    /* position: relative;
+    bottom: 525px; */
 }
 
 .team-wrapper h2 {
@@ -305,8 +296,8 @@ nav ul li a {
 .contact-wrapper {
     padding: 2rem;
     /* positioning */
-    position: relative;
-    bottom: 450px;
+    /* position: relative;
+    bottom: 450px; */
 }
 
 .contact-wrapper h2 {
