@@ -272,16 +272,14 @@ nav ul li a {
     padding: 2.5rem 0 1.5rem;
 }
 
-.team-wrapper .team-member {
-    background-color: #ffe6ac;
-    margin-bottom: 1rem;
-}
-
-.team-member img {
+.team-box img {
     width: 100%;
 }
 
-.team-box {
+.team-box:nth-child(2),
+.team-box:nth-child(4) {
+    background-color: #ffe6ac;
+    margin: -0.2rem 0 1rem;
     padding: 1.5rem 1rem;
 }
 
@@ -369,7 +367,7 @@ nav ul li a {
 
 .location iframe {
     width: 100%;
-    height: 400px;
+    height: 375px;
     margin: -0.5rem 0 0.5rem;
 }
 
@@ -464,17 +462,25 @@ footer p {
     }
 
     .about-box {
-        padding: 1rem;
+        padding: 0 1rem;
     }
 
     .about-box h2 {
-        padding-bottom: 2rem;
+        padding: 1rem 0 2rem;
     }
     
     /* SERVICES */
 
+    .services-wrapper {
+        margin: 0 10rem;
+    }
+
     .services-wrapper h2 {
-        display: block;
+        margin-bottom: 1rem;
+    }
+
+    .services-wrapper section {
+        margin: 0;
     }
 
     /* assigning grid areas */
@@ -506,4 +512,84 @@ footer p {
         "video video web web print print"
         "video video web web print print";
     }
+
+    /* VISION */
+
+    .vision-box {
+        margin: 2rem 10rem;
+    }
+
+    /* TEAM */
+
+    .team-wrapper {
+        margin: 0 10rem;
+        padding: 0;
+    }
+
+    .team-members {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .team-box {
+        box-sizing: border-box;
+        width: 50%;
+        height: 325px;
+    }
+
+    .team-box img {
+        height: 325px;
+
+    }
+
+    .team-box:nth-child(2),
+    .team-box:nth-child(4) {
+        margin: 0;
+    }
+
+    .team-box:nth-child(3) {
+        order: 1;
+    }
+
+    /* CONTACT */
+
+    .contact-wrapper {
+        margin: 4rem 10rem 1rem;
+    }
+
+    .contact-wrapper h2 {
+        padding-bottom: 3rem;
+    }
+
+    .contact-box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact:nth-child(2) {
+        order: 1;
+    }
+
+    .form {
+        box-sizing: border-box;
+        width: 50%;
+        padding-right: 1rem;
+    }
+
+    .location {
+        box-sizing: border-box;
+        width: 50%;
+        padding-left: 1rem;
+    }
+
+    .hours {
+        width: 100%;
+    }
+
+    /* FOOTER */
+
+    footer {
+        padding: 1rem 10rem;
+    }
+
 }
